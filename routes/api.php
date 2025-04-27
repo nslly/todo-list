@@ -12,7 +12,7 @@ Route::group(['prefix' => 'v1'], function () {
 });
 
 
-Route::group(['prefix' => 'v1', 'middleware' => ['auth:sanctum', 'auth:api']], function () {
+Route::group(['prefix' => 'v1', 'middleware' => ['auth:sanctum']], function () {
     Route::post('/logout', [LoginController::class, 'destroy']);
 
     Route::apiResource('tasks', TaskController::class)->except(['create', 'edit']);
