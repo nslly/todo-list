@@ -15,12 +15,12 @@
 
 1. Clone the repository:
 
-git clone https://github.com/nslly/sucre_exam.git
+git clone https://github.com/nslly/todo-list.git
 
 
 2. Navigate to the project directory:
 
-cd sucre_exam
+cd todo-list
 
 
 3. Install the project dependencies and node packages:
